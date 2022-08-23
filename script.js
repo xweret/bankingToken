@@ -21,6 +21,9 @@ let intervalo = setInterval(() => {
     contador += 0;
 },10000)
 
+
+
+
     let progressBar = document.querySelector("#barp")
     let intervaloB = 0 
 progressBar.value = 0 
@@ -30,13 +33,13 @@ let intervaloBarra = setInterval (() => {
     intervaloB++
     console.log(intervaloB)
 }, 290)
-if (intervaloB == 34){
+while (intervaloB == intervalo){
     intervaloB = 0
 
 }
 
 
-
+// se hace un bucle la barra de progreso pero lso numeros siguen cambiando...
 
 
 
